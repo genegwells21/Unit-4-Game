@@ -1,1 +1,61 @@
-style.css
+body{
+    background-image: url("../images/background.png.jpg")
+}
+div{
+    width: 25%;
+    margin: 10px;
+    border: solid 2px white;
+    padding: 10px;
+}
+h2  {
+    text-align: left;
+    font-weight: bold;
+}
+h3  {
+    text-align: left;
+    font-weight: bold;
+}
+p   {
+color:green;
+}
+span    {
+    text-align: left;
+    font-weight: bold;
+}
+.title{
+
+    font-size: 25pt;
+    color:white;
+    background-color:orangered;
+    width:19%;
+}
+.instructions   {
+    background-color: tan;
+    width:40%;
+}
+.targetNumber  { 
+    background-color: green;
+    color: purple;
+    width: 10%;
+    height: 60px;
+    float: left;
+}
+.winsAndLosses  {
+    background-color: turquoise;
+    color:blue;
+    width: 5%;
+    height: 60px;
+    float: left;
+}
+.userTotal  {
+    background-color: darkcyan;
+    color:white;
+    width: 15%;
+    height: 60px;
+}
+.crystals   {
+    clear: both;
+}
+.imageOfCrystal{
+    height: 60px;
+    margin: 10px;}
