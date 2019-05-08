@@ -1,6 +1,6 @@
 $(document).ready(function()    {
 
-    var desiredNumber= math.floor(math.random() * 101 + 19)
+    var desiredNumber= Math.floor(Math.random() * 101 + 19)
 
     $('#matchingNumber').text(desiredNumber);
 
@@ -11,19 +11,19 @@ $(document).ready(function()    {
     $("#amountOfWins").text(wins);
     $("#amountOfLosses").text(losses);
     
-    var redCrystalValue= math.floor(math.random() * 11+ 1)
-    var blueCrystalValue= math.floor(math.random() * 11+ 1)
-    var yellowCrystalValue= math.floor(math.random() * 11+ 1)
-    var greenCrystalValue= math.floor(math.random() * 11+ 1)
+    var redCrystalValue= Math.floor(Math.random() * 11+ 1)
+    var blueCrystalValue= Math.floor(Math.random() * 11+ 1)
+    var yellowCrystalValue= Math.floor(Math.random() * 11+ 1)
+    var greenCrystalValue= Math.floor(Math.random() * 11+ 1)
 
     function reset()    {
-        desiredNumber = math.floor(math.random() * 101 + 19)
+        desiredNumber = Math.floor(Math.random() * 101 + 19)
         console.log(desiredNumber)
         $("#matchingNumber").text(desiredNumber);
-    var redCrystalValue= math.floor(math.random() * 11+ 1);
-    var blueCrystalValue= math.floor(math.random() * 11+ 1);
-    var yellowCrystalValue= math.floor(math.random() * 11+ 1);
-    var greenCrystalValue= math.floor(math.random() * 11+ 1);
+    var redCrystalValue= Math.floor(Math.random() * 11+ 1);
+    var blueCrystalValue= Math.floor(Math.random() * 11+ 1);
+    var yellowCrystalValue= Math.floor(Math.random() * 11+ 1);
+    var greenCrystalValue= Math.floor(Math.random() * 11+ 1);
     
     totalValue = 0;
     $("#resultTotal").text(totalValue);
